@@ -9,14 +9,39 @@
     <title>Registro de Empresa</title>
 
     <!--CSS-->
+    <link href="~/Content/Plugins/css/bootstrap.min.css" rel="stylesheet" />
     <!--JS-->
-
+    <script src="~/Content/Plugins/js/jquery-3.1.1.min.js"></script>
+    <script src="~/Content/Plugins/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <br /><br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-3">
+                    <span><label><b>Registrar Empresa</b></label></span>
+                </div>
+            </div>
+            <br />  <br />  
 
-
+             <div class="col-md-12">
+                   <div class="col-md-3">
+                       <img src="~/Content/Image/img_logo/TuLogo.png" alt="Avatar" width="80px" class="img-circle previsualizar" />
+                       <label for="imagen" class="input-label"><i class="fa fa-cloud-upload-alt"></i>Subir imagen</label><input type="file" name="imagen" id="imagen" />
+                   </div>
+                   <div class="col-md-6">
+                       <span><label><b>Razon Social</b></label></span>
+                       <input type="text" class="form-control" id="txtrazonsocial" />
+                   </div>
+                   <div class="col-md-3">
+                       <span><label><b>RNC</b></label></span>
+                       <input type="text" class="form-control" id="txtrnc" />
+                   </div>
+             </div>
+        </div>
+    </div>
 </body>
-
 </html>
 
